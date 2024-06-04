@@ -31,6 +31,22 @@ export default function Home() {
           <Button title={"Instagram"} />
         </div>
       </div>
+      <div className="attribution">
+        Challenge by
+        <span className="mx-1">
+          <a
+            href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"
+            target="_blank"
+          >
+            Frontend Mentor
+          </a>
+        </span>
+        . Coded by{" "}
+        <a href="https://www.frontendmentor.io/profile/yh919">
+          Youssef Hussein
+        </a>
+        .
+      </div>
     </main>
   );
 }
