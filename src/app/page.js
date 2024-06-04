@@ -53,10 +53,8 @@ export default function Home() {
 
 const Button = ({ title }) => {
   return (
-    <button className="bg-neutral-700 text-white px-20 sm:px-24  py-3 rounded-lg hover:bg-[#c5f82a] hover:text-neutral-900 transition duration-500 ease-in-out">
-      <a href="#" className="font-medium">
-        {title}
-      </a>
+    <button className="bg-neutral-700 font-medium text-white px-20 sm:px-24  py-3 rounded-lg hover:bg-[#c5f82a] hover:text-neutral-900 transition duration-500 ease-in-out">
+      {title}
     </button>
   );
 };
